@@ -8,11 +8,13 @@ Test Strategy
 General Test Principles
 @snapend
 
+@snap[east span-50 text-05]
 ?- All testing is **information gathering**
 - All worthwhile testing is **risk based**
 - Manually regression checking software is cost prohibitive and doesn't scale
 - The cost of fixing a problem is proportional to its age
 - We should aim to cover as much risk as we can, as fast as we can
+@snapend
 
 ---
 @title[Exploratory testing principles]
