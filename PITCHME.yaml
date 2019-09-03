@@ -1,6 +1,6 @@
 theme : template
 
-logo : assets/test-pyramid.png
+logo : assets/pyramid.png
 theme-background : [ "#0b4757" ]
 theme-headline   : [ "Prompt", "#268bd2", "none" ]
 theme-byline     : [ "Prompt", "#268bd2", "none" ]
