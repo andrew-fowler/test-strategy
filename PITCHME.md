@@ -35,8 +35,10 @@ Exploratory testing principles
 Test Automation principles
 @snapend
 
+@snap[text-05]
  - Aims to **confirm that the things we knew to be true, still are**
  - Aims to **increase release speed** by providing a safety net for **confident and rapid change**
+@snap[text-05]
 
 ---
 @title[Test Automation principles]
