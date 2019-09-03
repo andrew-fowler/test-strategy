@@ -2,16 +2,44 @@
 
 ---
 
-Test distribution / pyramid
+# General Principles
+
+- All testing is *risk based*
+- All testing is *information gathering*
+- The cost of fixing a problem is proportional to its age
+
+# Test Automation principles
+
+ - Signal
+ - Stability > Performance > Coverage
+ - Automated testing aims to *confirm that the things we knew to be true, still are*
+ - The information given to us by our test automation is *reliable and actionable*
+ - By applying automated testing in our workflow, we aim to *increase release speed* by providing a *safety net* for *confident and rapid change*
+
+# Exploratory testing principles
+
+- Exploratory testing aims to tell us *things we don't know*
+
+# Test distribution / pyramid
+
+- The test pyramid isn't something to follow, it's an illustration of the *competing dimensions of isolation and system-confidence*
+- Isolation (in the code under test) is *proportional* to execution *determinism* and *speed*
+- However, isolation is *inversely proportional* to the *system confidence* provided by the resulting information
+    - E.g. 100% decision coverage at UT level won't tell you that a contract has broken, or your ad provider is crashing browsers
+
+so..
+
+- (normally) test counts are unit > small integration > large integration > system
+- the large integration / system tests that do exist need to provide as much signal as possible
 
 Risk
 
 - Exploratory
 - Unit
- - Coverage
- - Mutation
+  - Coverage
+  - Mutation
 - Integration
-- Acceptance
+- System
 
 ---
 
@@ -19,7 +47,15 @@ Risk
 
 ## Functional
 
+ - Exploratory
+ - Integration
+ - System
+
 ## Non-functional
+
+ - Load
+ - Accessibility
+ - Security
 
 ---
 
@@ -27,7 +63,18 @@ Risk
 
 ## Functional
 
+ - Exploratory
+ - Integration
+ - System
+
 ## Non-functional
+
+ - Load
+ - Security
+
+---
+
+# Contract
 
 ---
 
@@ -35,22 +82,15 @@ Risk
 
 ## Functional
 
+ - Exploratory
+ - Integration
+ - System
+
 ## Non-functional
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ - Load
+ - Accessibility
+ - Security
 
 
 

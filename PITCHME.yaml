@@ -1,9 +1,9 @@
 theme : template
 
-theme-background : [ "black" ]
+theme-background : [ "darkslategray" ]
 theme-headline   : [ "Source Code Pro", "white", "none" ]
 theme-byline     : [ "Source Code Pro", "#C0C0C0", "none" ]
-theme-text       : [ "Source Code Pro", "#F5FFFA", "none" ]
+theme-text       : [ "Source Code Pro", "seagreen", "none" ]
 theme-links      : [ "#E27924", "#FF851B" ]
 theme-code       : [ "Source Code Pro" ]
 theme-controls   : [ "#C0C0C0" ]
