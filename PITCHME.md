@@ -83,7 +83,7 @@ Provide information that is **reliable and actionable** (aka *Signal*)
 Test Automation Signal
 @snapend
 
-@snap[west span-100 text-07]
+@snap[span-100 text-10]
 **Stability** > **Performance** > **Coverage**
 @snapend
 
