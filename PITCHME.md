@@ -2,6 +2,7 @@
 
 ---
 @title[General Principles]
+####General Principles
 
 - All testing is **risk based**
 - All testing is **information gathering**
@@ -10,12 +11,14 @@
 ---
 
 @title[Test Automation principles]
+####Test Automation principles
 
  - Automated testing aims to **confirm that the things we knew to be true, still are**
  - By applying automated testing in our workflow, we aim to **increase release speed** by providing a **safety net** for **confident and rapid change**
 
 ---
 @title[Test Automation principles]
+####Test Automation principles
 
  - The information given to us by our test automation is **reliable and actionable**
  - Signal
@@ -23,13 +26,14 @@
 
 ---
 @title[Exploratory testing principles]
+####Exploratory testing principles
 
 - Exploratory testing aims to tell us **things we don't know**
 
 ---
 
-@title[Test distribution / pyramid]
-
+@title[Test pyramid]
+####Test pyramid
 
 ![Image of test pyramid](assets/pyramid.png)
 
