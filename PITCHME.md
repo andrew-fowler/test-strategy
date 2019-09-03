@@ -11,9 +11,13 @@ General Test Principles
 @snapend
 
 @snap[text-05]
-- Manually regression checking software is cost prohibitive and doesn't scale
-- The cost of fixing a problem is proportional to its age
-- We aim to cover as much risk as we can, as fast as we can
+Manually regression checking software is cost prohibitive and doesn't scale
+
+
+The cost of fixing a problem is proportional to its age
+
+
+We aim to cover as much risk as we can, as fast as we can
 @snapend
 
 Note:
