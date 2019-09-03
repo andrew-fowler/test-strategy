@@ -8,6 +8,8 @@
 - All testing is *information gathering*
 - The cost of fixing a problem is proportional to its age
 
+---
+
 ### Test Automation principles
 
  - Signal
@@ -16,9 +18,13 @@
  - The information given to us by our test automation is *reliable and actionable*
  - By applying automated testing in our workflow, we aim to *increase release speed* by providing a *safety net* for *confident and rapid change*
 
+---
+
 ### Exploratory testing principles
 
 - Exploratory testing aims to tell us *things we don't know*
+
+---
 
 ### Test distribution / pyramid
 
@@ -27,10 +33,14 @@
 - However, isolation is *inversely proportional* to the *system confidence* provided by the resulting information
     - E.g. 100% decision coverage at UT level won't tell you that a contract has broken, or your ad provider is crashing browsers
 
+---
+
 so..
 
 - (normally) test counts are unit > small integration > large integration > system
 - the large integration / system tests that do exist need to provide as much signal as possible
+
+---
 
 Risk
 
