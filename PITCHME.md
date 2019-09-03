@@ -44,9 +44,11 @@ Test Automation principles
 Test Automation principles
 @snapend
 
+@snap[text-05]
  - The information given to us by our test automation is **reliable and actionable**
  - Signal
  - Stability > Performance > Coverage
+@snapend
 
 ---
 
@@ -67,11 +69,16 @@ Test pyramid
 - However, isolation is **inversely proportional** to the **system confidence** provided by the resulting information
 @snapend
 ---
+@snap[west span-50]
+![Image of test pyramid](assets/pyramid.png)
+@snapend
 
+@snap[east span-50 text-05]
 So..
 
 - (normally) test counts are unit > small integration > large integration > system
 - Where large-integration / system tests that do exist need to provide as much signal as possible
+@snapend
 
 ---
 
@@ -80,6 +87,10 @@ General test workflow
 @snapend
 
 ![Image of test workflow](assets/test-workflow.png)
+
+@snap[south span-50 text-05]
+Having ephemeral environments for integration and system testing allows us to temporarily retain the environment state for debugging, and prevents state accretion problems.
+@snapend
 
 Note:
 
