@@ -31,8 +31,8 @@ Exploratory testing principles
 Test Automation principles
 @snapend
 
- - Automated testing aims to **confirm that the things we knew to be true, still are**
- - By applying automated testing in our workflow, we aim to **increase release speed** by providing a **safety net** for **confident and rapid change**
+ - Aims to **confirm that the things we knew to be true, still are**
+ - Aims to **increase release speed** by providing a safety net for **confident and rapid change**
 
 ---
 @title[Test Automation principles]
@@ -44,27 +44,36 @@ Test Automation principles
  - Signal
  - Stability > Performance > Coverage
 
-
 ---
 
 @title[Test pyramid]
 @snap[north text-10 text-gold]
 Test pyramid
 @snapend
-![Image of test pyramid](assets/pyramid.png)
 
+@snap[west]
+![Image of test pyramid](assets/pyramid.png)
+@snapend
+
+@snap[east]
 - The test pyramid isn't something to follow, it's an illustration of the **competing dimensions of isolation and system-confidence**
+@snapend
 
 ---
+
 @title[Test pyramid]
 @snap[north text-10 text-gold]
 Test pyramid
 @snapend
-![Image of test pyramid](assets/pyramid.png)
 
+@snap[west]
+![Image of test pyramid](assets/pyramid.png)
+@snapend
+
+@snap[east]
 - Isolation (in the code under test) is **proportional** to execution **determinism** and **speed**
 - However, isolation is **inversely proportional** to the **system confidence** provided by the resulting information
-
+@snapend
 ---
 
 So..
