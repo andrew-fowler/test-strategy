@@ -8,7 +8,7 @@ Test Strategy
 General Test Principles
 @snapend
 
-@snap[east span-50 text-05]
+@snap[text-05]
 ?- All testing is **information gathering**
 - All worthwhile testing is **risk based**
 - Manually regression checking software is cost prohibitive and doesn't scale
@@ -22,9 +22,11 @@ General Test Principles
 Exploratory testing principles
 @snapend
 
+@snap[text-05]
 - Aims to tell us **things we don't know**
 - Prevents costly bugs early
 - Informs all other activity (dev, automation, monitoring, etc)
+@snapend
 
 ---
 
