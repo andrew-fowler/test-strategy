@@ -1,8 +1,9 @@
 ## Test Strategy
 
 ---
-
+@snap[north]
 ### General Principles
+@snapend
 
 - All testing is **risk based**
 - All testing is **information gathering**
