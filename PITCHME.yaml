@@ -2,8 +2,8 @@ theme : template
 
 logo : assets/logo.png
 theme-background : [ "#0b4757" ]
-theme-headline   : [ "Prompt", "#268bd2", "none" ]
-theme-byline     : [ "Prompt", "#268bd2", "none" ]
+theme-headline   : [ "Prompt", "#268bd2", "uppercase" ]
+theme-byline     : [ "Prompt", "#268bd2", "uppercase" ]
 theme-text       : [ "Prompt", "#93a1a1", "none" ]
 theme-links      : [ "#E27924", "#FF851B" ]
 theme-code       : [ "Source Code Pro" ]
