@@ -12,11 +12,16 @@
 
 ### Test Automation principles
 
- - Signal
- - Stability > Performance > Coverage
  - Automated testing aims to **confirm that the things we knew to be true, still are**
  - The information given to us by our test automation is **reliable and actionable**
  - By applying automated testing in our workflow, we aim to **increase release speed** by providing a **safety net** for **confident and rapid change**
+
+---
+
+### Test Automation principles
+
+ - Signal
+ - Stability > Performance > Coverage
 
 ---
 
