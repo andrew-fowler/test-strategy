@@ -60,8 +60,6 @@ Confirm that the **things we knew to be true, still are**
 
 **Increase release speed** by providing a safety net for **confident and rapid change**
 
-
-Provide information that is **reliable and actionable**
 @snapend
 ---
 
@@ -73,7 +71,7 @@ Test Automation principles
 @snapend
 
 @snap[west span-100 text-07]
-**Signal** - *The degree to which a test output accurately informs a resulting action*
+Provide information that is **reliable and actionable** (aka *Signal*)
 
 
 **Stability** > **Performance** > **Coverage**
