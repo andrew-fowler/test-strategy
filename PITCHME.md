@@ -104,7 +104,7 @@ Test pyramid
 @snapend
 
 @snap[east span-50 text-05]
-- The test pyramid isn't something to follow, it's an illustration of the **competing dimensions of isolation and system-confidence**
+- The test pyramid isn't something to follow, it's an illustration of the competing dimensions of __isolation__ and __system-confidence__
 @snapend
 
 
@@ -122,9 +122,9 @@ Test pyramid
 @snapend
 
 @snap[east span-50 text-05]
-- Isolation (in the code under test) is **proportional** to execution **determinism** and **speed**
+- Isolation (in the code under test) is __proportional__ to execution __determinism__ and __speed__
 
-- However, isolation is **inversely proportional** to the **system confidence** provided by the resulting information
+- However, isolation is __inversely proportional__ to the __system confidence__ provided by the resulting information
 @snapend
 
 
