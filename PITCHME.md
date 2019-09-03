@@ -13,10 +13,11 @@
 ---
 
 @title[Test Automation principles]
-@snap[north text-15 text-gold]
+@snap[north text-10 text-gold]
 #### Test Automation principles
 @snapend
  - Automated testing aims to **confirm that the things we knew to be true, still are**
+
  - By applying automated testing in our workflow, we aim to **increase release speed** by providing a **safety net** for **confident and rapid change**
 
 ---
