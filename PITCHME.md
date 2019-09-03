@@ -61,12 +61,6 @@ Test Automation principles
 **Increase release speed** by providing a safety net for **confident and rapid change**
 @snapend
 
-<!-- @snap[west span-100 text-07]
-Aims to **confirm that the things we knew to be true, still are**
-
-
-Aims to **increase release speed** by providing a safety net for **confident and rapid change**
-@snapend -->
 
 
 
