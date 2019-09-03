@@ -4,21 +4,23 @@ Test Strategy
 
 ---
 @title[General Principles]
-@snap[north text-10 text-gold span-100]
+@snap[north text-uppercase text-10 text-gold span-100]
 General Test Principles
 @snapend
 
 @snap[text-05]
-?- All testing is **information gathering**
-- All worthwhile testing is **risk based**
 - Manually regression checking software is cost prohibitive and doesn't scale
 - The cost of fixing a problem is proportional to its age
-- We should aim to cover as much risk as we can, as fast as we can
+- We aim to cover as much risk as we can, as fast as we can
 @snapend
+
+Note:
+- All testing is **information gathering**
+- All worthwhile testing is **risk based**
 
 ---
 @title[Exploratory testing principles]
-@snap[north text-10 text-gold span-100]
+@snap[north text-uppercase text-10 text-gold span-100]
 Exploratory testing principles
 @snapend
 
@@ -31,33 +33,31 @@ Exploratory testing principles
 ---
 
 @title[Test Automation principles]
-@snap[north text-10 text-gold span-100]
+@snap[north text-uppercase text-10 text-gold span-100]
 Test Automation principles
 @snapend
 
 @snap[text-05]
  - Aims to **confirm that the things we knew to be true, still are**
-
- 
  - Aims to **increase release speed** by providing a safety net for **confident and rapid change**
 @snapend
 
 ---
 @title[Test Automation principles]
-@snap[north text-10 text-gold span-100]
+@snap[north text-uppercase text-10 text-gold span-100]
 Test Automation principles
 @snapend
 
 @snap[text-05]
  - The information given to us by our test automation is **reliable and actionable**
- - Signal
+ - Signal - *The degree to which a test output accurately informs a resulting action*
  - Stability > Performance > Coverage
 @snapend
 
 ---
 
 @title[Test pyramid]
-@snap[north text-10 text-gold span-100]
+@snap[north text-uppercase text-10 text-gold span-100]
 Test pyramid
 @snapend
 
@@ -86,7 +86,7 @@ So..
 
 ---
 
-@snap[north text-10 text-gold span-100]
+@snap[north text-uppercase text-10 text-gold span-100]
 General test workflow
 @snapend
 
@@ -122,7 +122,7 @@ Note:
 
 ---
 
-@snap[north text-10 text-gold span-100]
+@snap[north text-uppercase text-10 text-gold span-100]
 Defect management
 @snapend
 
