@@ -72,10 +72,21 @@ Test Automation principles
 
 @snap[west span-100 text-07]
 Provide information that is **reliable and actionable** (aka *Signal*)
+@snapend
 
 
+---
+
+
+@title[Test Automation principles]
+@snap[north text-uppercase text-10 text-gold span-100]
+Test Automation Signal
+@snapend
+
+@snap[west span-100 text-07]
 **Stability** > **Performance** > **Coverage**
 @snapend
+
 
 
 ---
