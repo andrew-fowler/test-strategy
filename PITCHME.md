@@ -36,10 +36,14 @@ Note:
 Exploratory testing principles
 @snapend
 
-@snap[text-05]
-- Aims to tell us **things we don't know**
-- Prevents costly bugs early
-- Informs all other activity (dev, automation, monitoring, etc)
+@snap[west text-07]
+Aims to tell us **things we don't know**
+
+
+Prevents costly bugs early
+
+
+Informs all other activity (dev, automation, monitoring, etc)
 @snapend
 
 
@@ -53,9 +57,11 @@ Exploratory testing principles
 Test Automation principles
 @snapend
 
-@snap[text-05]
- - Aims to **confirm that the things we knew to be true, still are**
- - Aims to **increase release speed** by providing a safety net for **confident and rapid change**
+@snap[west text-07]
+Aims to **confirm that the things we knew to be true, still are**
+
+
+Aims to **increase release speed** by providing a safety net for **confident and rapid change**
 @snapend
 
 
@@ -69,10 +75,14 @@ Test Automation principles
 Test Automation principles
 @snapend
 
-@snap[text-05]
- - The information given to us by our test automation is **reliable and actionable**
- - Signal - *The degree to which a test output accurately informs a resulting action*
- - Stability > Performance > Coverage
+@snap[west text-07]
+The information given to us by our test automation is **reliable and actionable**
+
+
+Signal - *The degree to which a test output accurately informs a resulting action*
+
+
+Stability > Performance > Coverage
 @snapend
 
 
@@ -128,7 +138,7 @@ General test workflow
 
 ![Image of test workflow](assets/test-workflow.png)
 
-@snap[south span-50 text-05]
+@snap[south span-100 text-05]
 Having ephemeral environments for integration and system testing allows us to temporarily retain the environment state for debugging, and prevents state accretion problems.
 @snapend
 
@@ -166,9 +176,15 @@ Note:
 Defect management
 @snapend
 
-- Defect reporting is only valuable as a method of clearly conveying information to the team.
-- The goal is to have the information actioned at the correct time.
-- Due to context switching, the cost of actioning the information is proportional to it's age.
+@snap[west text-07]
+Defect reporting is only valuable as a method of clearly conveying information to the team.
+
+
+The goal is to have the information actioned at the correct time.
+
+
+Due to context switching, the cost of actioning the information is proportional to it's age.
+@snap[west text-07]
 
 Therefore:
 
