@@ -38,9 +38,15 @@
 ![Image of test pyramid](assets/pyramid.png)
 
 - The test pyramid isn't something to follow, it's an illustration of the **competing dimensions of isolation and system-confidence**
+
+---
+@title[Test pyramid]
+#### Test pyramid
+
+![Image of test pyramid](assets/pyramid.png)
+
 - Isolation (in the code under test) is **proportional** to execution **determinism** and **speed**
 - However, isolation is **inversely proportional** to the **system confidence** provided by the resulting information
-    - E.g. 100% decision coverage at UT level won't tell you that a contract has broken, or your ad provider is crashing browsers
 
 ---
 
