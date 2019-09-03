@@ -78,6 +78,16 @@ Provide information that is **reliable and actionable** (aka *Signal*)
 @snapend
 
 
+---
+
+@title[Test pyramid]
+@snap[north text-uppercase text-10 text-gold span-100]
+Test pyramid
+@snapend
+
+![Image of test pyramid](assets/pyramid.png)
+
+
 
 ---
 
