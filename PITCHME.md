@@ -73,13 +73,10 @@ Test Automation principles
 @snapend
 
 @snap[west span-100 text-07]
+**Signal** - *The degree to which a test output accurately informs a resulting action*
 
 
-
-Signal - *The degree to which a test output accurately informs a resulting action*
-
-
-Stability > Performance > Coverage
+**Stability** > **Performance** > **Coverage**
 @snapend
 
 
