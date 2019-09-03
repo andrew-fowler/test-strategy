@@ -8,9 +8,11 @@ Test Strategy
 General Principles
 @snapend
 
-- All testing is **risk based**
-- All testing is **information gathering**
+- Writing software is more valuable than checking software
 - The cost of fixing a problem is proportional to its age
+- All testing is **information gathering**
+- All worthwhile testing is **risk based**
+- We should aim to cover as much risk as we can, as fast as we can
 
 ---
 
@@ -120,9 +122,13 @@ So..
 
 ---
 
-General Test Workflow
+@snap[north text-10 text-gold]
+General test workflow
+@snapend
 
 ![Image of test workflow](assets/test-workflow.png)
+
+Note:
 
 - 3 amigos
  - Risks, omissions, contradictions, ambiguities resolved
@@ -147,22 +153,49 @@ General Test Workflow
  - Live monitoring and alerting active
 
 
+---
+
+
+@snap[north text-10 text-gold]
+Bug management
+@snapend
+
+- Bug reporting is only valuable as a method of clearly conveying information to the team.
+- The goal is to have the information actioned at the correct time.
+- Due to context switching, the cost of actioning the information is proportional to it's age.
+
+Therefore:
+
+For something that is a clear issue, in a live branch, inform the appropriate dev/s.
+If the fix is a clear requirement and doesn't significantly affect delivery, implement the fix and confirm resolution.
+If the fix is not a clear requirement and/or does significantly affect delivery, the Product Owner chooses to either action an immediate fix, or direct the team to formalise the bug and place it on the backlog for prioritisation.
 
 ---
 
-Bug management
+Pipeline activities
+
+SLAs
+
+---
+
+Common questions the strategy should answer
+
+- How many tests to write?
+- Is our build too long?
+- What happens post release?
+- Who is responsible for testing?
+- When does testing start?
+- What tooling should we use?
+- 
 
 ---
 
 Note:
 Fast feedback.  The greater the age of a bug, the more impactful and more expensive it is to fix.
 
-All test automation aims to enable ****change with confidence and speed****.  
+All test automation aims to enable **change with confidence and speed**.  
 
-At a system level, we're primarily aiming to cover ****regression risks**** introduced to the wider system (specifically at the user/consumer interface) by ****changes in its subcomponents****.
----
-## Context: Test Pyramid
-
+At a system level, we're primarily aiming to cover **regression risks** introduced to the wider system (specifically at the user/consumer interface) by **changes in its subcomponents**.
 
 Note:
 The test pyramid is a model often used/abused to describe very different things roughly related to testing.
@@ -182,6 +215,9 @@ Q: What’s the difference between system and acceptance testing?
 ---
 
 Note:
+
+How many tests to write?
+
 As few as possible _to cover the risks we care about_
 
 Write tests at the ****lowest possible point**** in the pyramid
