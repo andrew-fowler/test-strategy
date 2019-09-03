@@ -95,7 +95,23 @@ Test pyramid
 
 @snap[east span-50 text-05]
 - The test pyramid isn't something to follow, it's an illustration of the **competing dimensions of isolation and system-confidence**
+@snapend
 
+
+
+---
+
+
+@title[Test pyramid]
+@snap[north text-uppercase text-10 text-gold span-100]
+Test pyramid
+@snapend
+
+@snap[west span-50]
+![Image of test pyramid](assets/pyramid.png)
+@snapend
+
+@snap[east span-50 text-05]
 - Isolation (in the code under test) is **proportional** to execution **determinism** and **speed**
 
 - However, isolation is **inversely proportional** to the **system confidence** provided by the resulting information
