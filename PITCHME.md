@@ -2,6 +2,8 @@
 Test Strategy
 @snapend
 
+
+
 ---
 @title[General Principles]
 @snap[north text-uppercase text-10 text-gold span-100]
@@ -18,7 +20,13 @@ Note:
 - All testing is **information gathering**
 - All worthwhile testing is **risk based**
 
+
+
 ---
+
+
+
+
 @title[Exploratory testing principles]
 @snap[north text-uppercase text-10 text-gold span-100]
 Exploratory testing principles
@@ -30,7 +38,11 @@ Exploratory testing principles
 - Informs all other activity (dev, automation, monitoring, etc)
 @snapend
 
+
+
 ---
+
+
 
 @title[Test Automation principles]
 @snap[north text-uppercase text-10 text-gold span-100]
@@ -42,7 +54,12 @@ Test Automation principles
  - Aims to **increase release speed** by providing a safety net for **confident and rapid change**
 @snapend
 
+
+
 ---
+
+
+
 @title[Test Automation principles]
 @snap[north text-uppercase text-10 text-gold span-100]
 Test Automation principles
@@ -54,7 +71,12 @@ Test Automation principles
  - Stability > Performance > Coverage
 @snapend
 
+
+
 ---
+
+
+
 
 @title[Test pyramid]
 @snap[north text-uppercase text-10 text-gold span-100]
@@ -72,7 +94,13 @@ Test pyramid
 
 - However, isolation is **inversely proportional** to the **system confidence** provided by the resulting information
 @snapend
+
+
+
 ---
+
+
+
 @snap[west span-50]
 ![Image of test pyramid](assets/pyramid.png)
 @snapend
@@ -84,7 +112,11 @@ So..
 - Where large-integration / system tests that do exist need to provide as much signal as possible
 @snapend
 
+
+
 ---
+
+
 
 @snap[north text-uppercase text-10 text-gold span-100]
 General test workflow
@@ -120,7 +152,11 @@ Note:
 - Feature deployed to production
  - Live monitoring and alerting active
 
+
+
 ---
+
+
 
 @snap[north text-uppercase text-10 text-gold span-100]
 Defect management
@@ -136,7 +172,27 @@ For something that is a clear issue, in a live branch, inform the appropriate de
 If the fix is a clear requirement and doesn't significantly affect delivery, implement the fix and confirm resolution.
 If the fix is not a clear requirement and/or does significantly affect delivery, the Product Owner chooses to either action an immediate fix, or direct the team to formalise the bug and place it on the backlog for prioritisation.
 
+
+
 ---
+
+
+
+Common questions the strategy should answer
+
+- How many tests to write?
+- Is our build too long?
+- What happens post release?
+- Who is responsible for testing?
+- When does testing start?
+- What tooling should we use?
+- 
+
+
+
+
+---
+
 
 ### Web
 
@@ -204,15 +260,7 @@ SLAs
 
 ---
 
-Common questions the strategy should answer
 
-- How many tests to write?
-- Is our build too long?
-- What happens post release?
-- Who is responsible for testing?
-- When does testing start?
-- What tooling should we use?
-- 
 
 ---
 
