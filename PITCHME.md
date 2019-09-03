@@ -18,8 +18,8 @@ General Principles
 @snap[north text-10 text-gold]
 Test Automation principles
 @snapend
- - Automated testing aims to **confirm that the things we knew to be true, still are**
 
+ - Automated testing aims to **confirm that the things we knew to be true, still are**
  - By applying automated testing in our workflow, we aim to **increase release speed** by providing a **safety net** for **confident and rapid change**
 
 ---
@@ -27,6 +27,7 @@ Test Automation principles
 @snap[north text-10 text-gold]
 Test Automation principles
 @snapend
+
  - The information given to us by our test automation is **reliable and actionable**
  - Signal
  - Stability > Performance > Coverage
@@ -36,6 +37,7 @@ Test Automation principles
 @snap[north text-10 text-gold]
 Exploratory testing principles
 @snapend
+
 - Exploratory testing aims to tell us **things we don't know**
 
 ---
@@ -60,33 +62,22 @@ Test pyramid
 
 ---
 
-so..
+So..
 
 - (normally) test counts are unit > small integration > large integration > system
-- the large integration / system tests that do exist need to provide as much signal as possible
+- Where large-integration / system tests that do exist need to provide as much signal as possible
 
 ---
 
-Risk
+### Web
 
-- Exploratory
-- Unit
-  - Coverage
-  - Mutation
-- Integration
-- System
-
----
-
-## Web
-
-### Functional
+#### Functional
 
  - Exploratory
  - Integration
  - System
 
-### Non-functional
+#### Non-functional
 
  - Load
  - Accessibility
@@ -94,9 +85,9 @@ Risk
 
 ---
 
-## API
+### API
 
-### Functional
+#### Functional
 
  - Exploratory
  - Integration
@@ -109,19 +100,19 @@ Risk
 
 ---
 
-## Contract
+### Contract
 
 ---
 
-## Mobile
+### Mobile
 
-### Functional
+#### Functional
 
  - Exploratory
  - Integration
  - System
 
-### Non-functional
+#### Non-functional
 
  - Load
  - Accessibility
@@ -129,22 +120,32 @@ Risk
 
 ---
 
-Workflow
+General Test Workflow
+
+![Image of test workflow](assets/test-workflow.png)
 
 - 3 amigos
  - Risks, omissions, contradictions, ambiguities resolved
-- Branch active
+- Feature active
  - Exploratory prepped, heuristics and sketch plan created
  - Automation prepped, scenarios, behaviours, models, written (and failing - RGR)
-- Branch approaching review
+- Feature approaching review
  - Exploratory completed (functional, accessibility)
  - Integration automation completed
  - All issues resolved
 - PR raised and reviewed
  - Accessibility scan executed
- - Integration tests executed and issues resolved
- - Integration test code reviewed and issues resolved
-- Branch merged
+ - Integration tests executed and issues actioned
+ - Integration test code reviewed and issues actioned
+- PR approved
+ - Acceptance tests executed and issues actioned
+- Feature merged
+- Feature deployed to staging
+ - Load testing available
+ - Security testing available
+- Feature deployed to production
+ - Live monitoring and alerting active
+
 
 
 ---
