@@ -10,17 +10,19 @@ Test Strategy
 General Test Principles
 @snapend
 
-@snap[west text-07]
+<!-- @snap[west text-07]
 Manually regression checking software is cost prohibitive and doesn't scale
 The cost of fixing a problem is proportional to its age
 We aim to cover as much risk as we can, as fast as we can
-@snapend
+@snapend -->
 
+@snap[west span-100]
 ```
 Manually regression checking software is cost prohibitive and doesn't scale
 The cost of fixing a problem is proportional to its age
 We aim to cover as much risk as we can, as fast as we can
 ```
+@snapend
 
 Note:
 - All testing is **information gathering**
