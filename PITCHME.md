@@ -33,7 +33,7 @@ Note:
 Exploratory testing principles
 @snapend
 
-@snap[west text-07]
+@snap[west span-100 text-07]
 Aims to tell us **things we don't know**
 
 
@@ -54,12 +54,19 @@ Informs all other activity (dev, automation, monitoring, etc)
 Test Automation principles
 @snapend
 
-@snap[west text-07]
+@snap[west span-100 text-07]
+**Confirm that the things we knew to be true, still are**
+
+
+**Increase release speed** by providing a safety net for **confident and rapid change**
+@snapend
+
+<!-- @snap[west span-100 text-07]
 Aims to **confirm that the things we knew to be true, still are**
 
 
 Aims to **increase release speed** by providing a safety net for **confident and rapid change**
-@snapend
+@snapend -->
 
 
 
@@ -72,7 +79,7 @@ Aims to **increase release speed** by providing a safety net for **confident and
 Test Automation principles
 @snapend
 
-@snap[west text-07]
+@snap[west span-100 text-07]
 The information given to us by our test automation is **reliable and actionable**
 
 
