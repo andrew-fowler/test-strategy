@@ -16,7 +16,7 @@ General Principles
 
 @title[Test Automation principles]
 @snap[north text-10 text-gold]
-#### Test Automation principles
+Test Automation principles
 @snapend
  - Automated testing aims to **confirm that the things we knew to be true, still are**
 
@@ -25,7 +25,7 @@ General Principles
 ---
 @title[Test Automation principles]
 @snap[north text-10 text-gold]
-#### Test Automation principles
+Test Automation principles
 @snapend
  - The information given to us by our test automation is **reliable and actionable**
  - Signal
@@ -34,7 +34,7 @@ General Principles
 ---
 @title[Exploratory testing principles]
 @snap[north text-10 text-gold]
-#### Exploratory testing principles
+Exploratory testing principles
 @snapend
 - Exploratory testing aims to tell us **things we don't know**
 
@@ -42,7 +42,7 @@ General Principles
 
 @title[Test pyramid]
 @snap[north text-10 text-gold]
-#### Test pyramid
+Test pyramid
 @snapend
 ![Image of test pyramid](assets/pyramid.png)
 
@@ -51,7 +51,7 @@ General Principles
 ---
 @title[Test pyramid]
 @snap[north text-10 text-gold]
-#### Test pyramid
+Test pyramid
 @snapend
 ![Image of test pyramid](assets/pyramid.png)
 
