@@ -2,7 +2,7 @@
 
 ---
 @title[General Principles]
-@snap[north text-15 text-gold]
+@snap[north text-10 text-gold]
 General Principles
 @snapend
 
