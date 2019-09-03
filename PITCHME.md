@@ -70,7 +70,7 @@ Test pyramid
 ![Image of test pyramid](assets/pyramid.png)
 @snapend
 
-@snap[east span-50 text-01]
+@snap[east span-50 text-05]
 - Isolation (in the code under test) is **proportional** to execution **determinism** and **speed**
 - However, isolation is **inversely proportional** to the **system confidence** provided by the resulting information
 @snapend
