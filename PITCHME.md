@@ -4,7 +4,7 @@ Test Strategy
 
 ---
 @title[General Principles]
-@snap[north text-10 text-gold]
+@snap[north text-10 text-gold span-100]
 General Test Principles
 @snapend
 
@@ -16,7 +16,7 @@ General Test Principles
 
 ---
 @title[Exploratory testing principles]
-@snap[north text-10 text-gold]
+@snap[north text-10 text-gold span-100]
 Exploratory testing principles
 @snapend
 
@@ -27,7 +27,7 @@ Exploratory testing principles
 ---
 
 @title[Test Automation principles]
-@snap[north text-10 text-gold]
+@snap[north text-10 text-gold span-100]
 Test Automation principles
 @snapend
 
@@ -36,7 +36,7 @@ Test Automation principles
 
 ---
 @title[Test Automation principles]
-@snap[north text-10 text-gold]
+@snap[north text-10 text-gold span-100]
 Test Automation principles
 @snapend
 
@@ -47,7 +47,7 @@ Test Automation principles
 ---
 
 @title[Test pyramid]
-@snap[north text-10 text-gold]
+@snap[north text-10 text-gold span-100]
 Test pyramid
 @snapend
 
@@ -62,7 +62,7 @@ Test pyramid
 ---
 
 @title[Test pyramid]
-@snap[north text-10 text-gold]
+@snap[north text-10 text-gold span-100]
 Test pyramid
 @snapend
 
@@ -83,7 +83,7 @@ So..
 
 ---
 
-@snap[north text-10 text-gold]
+@snap[north text-10 text-gold span-100]
 General test workflow
 @snapend
 
@@ -115,7 +115,7 @@ Note:
 
 ---
 
-@snap[north text-10 text-gold]
+@snap[north text-10 text-gold span-100]
 Defect management
 @snapend
 
