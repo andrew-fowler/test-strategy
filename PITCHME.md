@@ -2,7 +2,9 @@
 
 ---
 @title[General Principles]
+@snap[north]
 #### General Principles
+@snapend
 
 - All testing is **risk based**
 - All testing is **information gathering**
@@ -11,38 +13,43 @@
 ---
 
 @title[Test Automation principles]
+@snap[north]
 #### Test Automation principles
-
+@snapend
  - Automated testing aims to **confirm that the things we knew to be true, still are**
  - By applying automated testing in our workflow, we aim to **increase release speed** by providing a **safety net** for **confident and rapid change**
 
 ---
 @title[Test Automation principles]
+@snap[north]
 #### Test Automation principles
-
+@snapend
  - The information given to us by our test automation is **reliable and actionable**
  - Signal
  - Stability > Performance > Coverage
 
 ---
 @title[Exploratory testing principles]
+@snap[north]
 #### Exploratory testing principles
-
+@snapend
 - Exploratory testing aims to tell us **things we don't know**
 
 ---
 
 @title[Test pyramid]
+@snap[north]
 #### Test pyramid
-
+@snapend
 ![Image of test pyramid](assets/pyramid.png)
 
 - The test pyramid isn't something to follow, it's an illustration of the **competing dimensions of isolation and system-confidence**
 
 ---
 @title[Test pyramid]
+@snap[north]
 #### Test pyramid
-
+@snapend
 ![Image of test pyramid](assets/pyramid.png)
 
 - Isolation (in the code under test) is **proportional** to execution **determinism** and **speed**
