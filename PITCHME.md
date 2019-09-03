@@ -1,40 +1,35 @@
 ## Test Strategy
 
 ---
-@snap[north]
-### General Principles
-@snapend
+@title[General Principles]
 
 - All testing is **risk based**
 - All testing is **information gathering**
 - The cost of fixing a problem is proportional to its age
 
 ---
-@snap[north]
-### Test Automation principles
-@snapend
+
+@title[Test Automation principles]
+
  - Automated testing aims to **confirm that the things we knew to be true, still are**
  - By applying automated testing in our workflow, we aim to **increase release speed** by providing a **safety net** for **confident and rapid change**
 
 ---
-@snap[north]
-### Test Automation principles
-@snapend
+@title[Test Automation principles]
+
  - The information given to us by our test automation is **reliable and actionable**
  - Signal
  - Stability > Performance > Coverage
 
 ---
-@snap[north]
-### Exploratory testing principles
-@snapend
+@title[Exploratory testing principles]
+
 - Exploratory testing aims to tell us **things we don't know**
 
-
 ---
-@snap[north]
-### Test distribution / pyramid
-@snapend
+
+@title[Test distribution / pyramid]
+
 
 ![Image of test pyramid](assets/pyramid.png)
 
