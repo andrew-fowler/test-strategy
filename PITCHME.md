@@ -10,30 +10,30 @@
 - The cost of fixing a problem is proportional to its age
 
 ---
-
+@snap[north]
 ### Test Automation principles
-
+@snapend
  - Automated testing aims to **confirm that the things we knew to be true, still are**
  - The information given to us by our test automation is **reliable and actionable**
  - By applying automated testing in our workflow, we aim to **increase release speed** by providing a **safety net** for **confident and rapid change**
 
 ---
-
+@snap[north]
 ### Test Automation principles
-
+@snapend
  - Signal
  - Stability > Performance > Coverage
 
 ---
-
+@snap[north]
 ### Exploratory testing principles
-
+@snapend
 - Exploratory testing aims to tell us **things we don't know**
 
 ---
-
+@snap[north]
 ### Test distribution / pyramid
-
+@snapend
 - The test pyramid isn't something to follow, it's an illustration of the **competing dimensions of isolation and system-confidence**
 - Isolation (in the code under test) is **proportional** to execution **determinism** and **speed**
 - However, isolation is **inversely proportional** to the **system confidence** provided by the resulting information
