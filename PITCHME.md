@@ -1,4 +1,6 @@
-## Test Strategy
+@snap[text-10 text-gold]
+Test Strategy
+@snapend
 
 ---
 @title[General Principles]
