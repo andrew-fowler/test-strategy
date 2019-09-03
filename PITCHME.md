@@ -3,7 +3,7 @@
 ---
 @title[General Principles]
 @snap[north text-15 text-gold]
-#### General Principles
+General Principles
 @snapend
 
 - All testing is **risk based**
@@ -22,7 +22,7 @@
 
 ---
 @title[Test Automation principles]
-@snap[north text-15 text-gold]
+@snap[north text-10 text-gold]
 #### Test Automation principles
 @snapend
  - The information given to us by our test automation is **reliable and actionable**
@@ -31,7 +31,7 @@
 
 ---
 @title[Exploratory testing principles]
-@snap[north text-15 text-gold]
+@snap[north text-10 text-gold]
 #### Exploratory testing principles
 @snapend
 - Exploratory testing aims to tell us **things we don't know**
@@ -39,7 +39,7 @@
 ---
 
 @title[Test pyramid]
-@snap[north text-15 text-gold]
+@snap[north text-10 text-gold]
 #### Test pyramid
 @snapend
 ![Image of test pyramid](assets/pyramid.png)
@@ -48,7 +48,7 @@
 
 ---
 @title[Test pyramid]
-@snap[north text-15 text-gold]
+@snap[north text-10 text-gold]
 #### Test pyramid
 @snapend
 ![Image of test pyramid](assets/pyramid.png)
