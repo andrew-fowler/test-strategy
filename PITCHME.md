@@ -1,4 +1,4 @@
-# Test Strategy
+## Test Strategy
 
 ---
 
@@ -112,11 +112,14 @@ Workflow
  - Exploratory prepped, heuristics and sketch plan created
  - Automation prepped, scenarios, behaviours, models, written (and failing - RGR)
 - Branch approaching review
- - Exploratory completed
+ - Exploratory completed (functional, accessibility)
  - Integration automation completed
  - All issues resolved
-- Branch reviewed
- - Integration Automation code reviewed and issues resolved
+- PR raised and reviewed
+ - Accessibility scan executed
+ - Integration tests executed and issues resolved
+ - Integration test code reviewed and issues resolved
+- Branch merged
 
 
 ---
