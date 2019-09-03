@@ -5,14 +5,24 @@ Test Strategy
 ---
 @title[General Principles]
 @snap[north text-10 text-gold]
-General Principles
+General Test Principles
 @snapend
 
-- Writing software is more valuable than checking software
-- The cost of fixing a problem is proportional to its age
-- All testing is **information gathering**
+?- All testing is **information gathering**
 - All worthwhile testing is **risk based**
+- Manually regression checking software is cost prohibitive and doesn't scale
+- The cost of fixing a problem is proportional to its age
 - We should aim to cover as much risk as we can, as fast as we can
+
+---
+@title[Exploratory testing principles]
+@snap[north text-10 text-gold]
+Exploratory testing principles
+@snapend
+
+- Aims to tell us **things we don't know**
+- Prevents costly bugs early
+- Informs all other activity (dev, automation, monitoring, etc)
 
 ---
 
@@ -34,13 +44,6 @@ Test Automation principles
  - Signal
  - Stability > Performance > Coverage
 
----
-@title[Exploratory testing principles]
-@snap[north text-10 text-gold]
-Exploratory testing principles
-@snapend
-
-- Exploratory testing aims to tell us **things we don't know**
 
 ---
 
@@ -68,6 +71,54 @@ So..
 
 - (normally) test counts are unit > small integration > large integration > system
 - Where large-integration / system tests that do exist need to provide as much signal as possible
+
+---
+
+@snap[north text-10 text-gold]
+General test workflow
+@snapend
+
+![Image of test workflow](assets/test-workflow.png)
+
+Note:
+
+- 3 amigos
+ - Risks, omissions, contradictions, ambiguities resolved
+- Feature active
+ - Exploratory prepped, heuristics and sketch plan created
+ - Automation prepped, scenarios, behaviours, models, written (and failing - RGR)
+- Feature approaching review
+ - Exploratory completed (functional, accessibility)
+ - Integration automation completed
+ - All issues resolved
+- PR raised and reviewed
+ - Accessibility scan executed
+ - Integration tests executed and issues actioned
+ - Integration test code reviewed and issues actioned
+- PR approved
+ - Acceptance tests executed and issues actioned
+- Feature merged
+- Feature deployed to staging
+ - Load testing available
+ - Security testing available
+- Feature deployed to production
+ - Live monitoring and alerting active
+
+---
+
+@snap[north text-10 text-gold]
+Defect management
+@snapend
+
+- Defect reporting is only valuable as a method of clearly conveying information to the team.
+- The goal is to have the information actioned at the correct time.
+- Due to context switching, the cost of actioning the information is proportional to it's age.
+
+Therefore:
+
+For something that is a clear issue, in a live branch, inform the appropriate dev/s.
+If the fix is a clear requirement and doesn't significantly affect delivery, implement the fix and confirm resolution.
+If the fix is not a clear requirement and/or does significantly affect delivery, the Product Owner chooses to either action an immediate fix, or direct the team to formalise the bug and place it on the backlog for prioritisation.
 
 ---
 
@@ -122,53 +173,12 @@ So..
 
 ---
 
-@snap[north text-10 text-gold]
-General test workflow
-@snapend
 
-![Image of test workflow](assets/test-workflow.png)
-
-Note:
-
-- 3 amigos
- - Risks, omissions, contradictions, ambiguities resolved
-- Feature active
- - Exploratory prepped, heuristics and sketch plan created
- - Automation prepped, scenarios, behaviours, models, written (and failing - RGR)
-- Feature approaching review
- - Exploratory completed (functional, accessibility)
- - Integration automation completed
- - All issues resolved
-- PR raised and reviewed
- - Accessibility scan executed
- - Integration tests executed and issues actioned
- - Integration test code reviewed and issues actioned
-- PR approved
- - Acceptance tests executed and issues actioned
-- Feature merged
-- Feature deployed to staging
- - Load testing available
- - Security testing available
-- Feature deployed to production
- - Live monitoring and alerting active
 
 
 ---
 
 
-@snap[north text-10 text-gold]
-Bug management
-@snapend
-
-- Bug reporting is only valuable as a method of clearly conveying information to the team.
-- The goal is to have the information actioned at the correct time.
-- Due to context switching, the cost of actioning the information is proportional to it's age.
-
-Therefore:
-
-For something that is a clear issue, in a live branch, inform the appropriate dev/s.
-If the fix is a clear requirement and doesn't significantly affect delivery, implement the fix and confirm resolution.
-If the fix is not a clear requirement and/or does significantly affect delivery, the Product Owner chooses to either action an immediate fix, or direct the team to formalise the bug and place it on the backlog for prioritisation.
 
 ---
 
