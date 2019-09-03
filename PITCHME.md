@@ -36,7 +36,7 @@
 ### Test distribution / pyramid
 @snapend
 
-![Image of test pyramid](assets/pyramid.png)
+![Image of test pyramid](assets/pyramid.pg)
 
 - The test pyramid isn't something to follow, it's an illustration of the **competing dimensions of isolation and system-confidence**
 - Isolation (in the code under test) is **proportional** to execution **determinism** and **speed**
