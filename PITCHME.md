@@ -2,13 +2,13 @@
 
 ---
 
-# General Principles
+### General Principles
 
 - All testing is *risk based*
 - All testing is *information gathering*
 - The cost of fixing a problem is proportional to its age
 
-# Test Automation principles
+### Test Automation principles
 
  - Signal
  - Stability > Performance > Coverage
@@ -16,11 +16,11 @@
  - The information given to us by our test automation is *reliable and actionable*
  - By applying automated testing in our workflow, we aim to *increase release speed* by providing a *safety net* for *confident and rapid change*
 
-# Exploratory testing principles
+### Exploratory testing principles
 
 - Exploratory testing aims to tell us *things we don't know*
 
-# Test distribution / pyramid
+### Test distribution / pyramid
 
 - The test pyramid isn't something to follow, it's an illustration of the *competing dimensions of isolation and system-confidence*
 - Isolation (in the code under test) is *proportional* to execution *determinism* and *speed*
@@ -43,15 +43,15 @@ Risk
 
 ---
 
-# Web
+## Web
 
-## Functional
+### Functional
 
  - Exploratory
  - Integration
  - System
 
-## Non-functional
+### Non-functional
 
  - Load
  - Accessibility
@@ -59,41 +59,59 @@ Risk
 
 ---
 
-# API
+## API
 
-## Functional
+### Functional
 
  - Exploratory
  - Integration
  - System
 
-## Non-functional
+### Non-functional
 
  - Load
  - Security
 
 ---
 
-# Contract
+## Contract
 
 ---
 
-# Mobile
+## Mobile
 
-## Functional
+### Functional
 
  - Exploratory
  - Integration
  - System
 
-## Non-functional
+### Non-functional
 
  - Load
  - Accessibility
  - Security
 
+---
+
+Workflow
+
+- 3 amigos
+ - Risks, omissions, contradictions, ambiguities resolved
+- Branch active
+ - Exploratory prepped, heuristics and sketch plan created
+ - Automation prepped, scenarios, behaviours, models, written (and failing - RGR)
+- Branch approaching review
+ - Exploratory completed
+ - Integration automation completed
+ - All issues resolved
+- Branch reviewed
+ - Integration Automation code reviewed and issues resolved
 
 
+---
+
+Bug management
 
 ---
 
