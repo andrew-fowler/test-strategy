@@ -10,7 +10,7 @@ Test Strategy
 General Test Principles
 @snapend
 
-@snap[text-05]
+@snap[west text-05]
 Manually regression checking software is cost prohibitive and doesn't scale
 
 
