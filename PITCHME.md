@@ -147,8 +147,6 @@ At a system level, we're primarily aiming to cover ****regression risks**** intr
 ---
 ## Context: Test Pyramid
 
-![Image of test pyramid](assets/pyramid.jpg)
-
 
 Note:
 The test pyramid is a model often used/abused to describe very different things roughly related to testing.
