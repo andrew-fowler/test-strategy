@@ -34,13 +34,13 @@ Exploratory testing principles
 @snapend
 
 @snap[west span-100 text-07]
-Aims to tell us **things we don't know**
+Tell us **things we don't know**
 
 
-Prevents costly bugs early
+**Prevent** or **find** costly defects early
 
 
-Informs all other activity (dev, automation, monitoring, etc)
+**Inform** all other activity (dev, automation, monitoring, etc)
 @snapend
 
 
@@ -55,15 +55,14 @@ Test Automation principles
 @snapend
 
 @snap[west span-100 text-07]
-**Confirm that the things we knew to be true, still are**
+Confirm that the **things we knew to be true, still are**
 
 
 **Increase release speed** by providing a safety net for **confident and rapid change**
+
+
+Provide information that is **reliable and actionable**
 @snapend
-
-
-
-
 ---
 
 
@@ -74,7 +73,7 @@ Test Automation principles
 @snapend
 
 @snap[west span-100 text-07]
-The information given to us by our test automation is **reliable and actionable**
+
 
 
 Signal - *The degree to which a test output accurately informs a resulting action*
