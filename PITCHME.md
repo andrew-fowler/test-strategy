@@ -135,7 +135,7 @@ Test pyramid
 @snapend
 
 @snap[east span-50 text-05]
-- Isolation (in the code under test) is __proportional__ to execution __determinism__ and __speed__
+- Isolation is __proportional__ to execution __determinism__ and __speed__
 
 - However, isolation is __inversely proportional__ to the __system confidence__ provided by the resulting information
 @snapend
@@ -201,6 +201,19 @@ Note:
 
 ---
 
+@title[Test Responsibilities]
+@snap[north text-uppercase text-10 text-gold span-100]
+Test Responsibilities
+@snapend
+@snap[west text-07]
+Notes:
+
+- quality is owned by the team, not by individuals
+- testers can perform, or review test work, or act as quality coaches
+
+@snapend
+
+---
 
 
 @snap[north text-uppercase text-10 text-gold span-100]
@@ -264,6 +277,8 @@ Common questions the strategy should answer
  - Integration
  - System
 
+---
+
 #### Non-functional
 
  - Load
@@ -279,6 +294,8 @@ Common questions the strategy should answer
  - Exploratory
  - Integration
  - System
+
+---
 
 ### Non-functional
 
