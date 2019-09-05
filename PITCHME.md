@@ -146,6 +146,7 @@ Test pyramid
 
 @snap[east span-50 text-05]
 @ul[spaced]
+
 - Isolation is __proportional__ to execution __determinism__ and __speed__
 
 - However, isolation is __inversely proportional__ to the __system confidence__ provided by the resulting information
@@ -165,8 +166,8 @@ Test pyramid
 @snap[east span-50 text-05]
 @ul[spaced]
 - So..
-- (normally) test counts are unit > small integration > large integration > system
-- Where large-integration / system tests that do exist need to provide as much signal as possible
+- test counts are unit > small integration > large integration > system
+- Where large-integration / system tests do exist they need to provide as much signal as possible
 @ulend
 @snapend
 
@@ -234,13 +235,13 @@ Defect management
 @snapend
 
 @snap[west text-07]
-@ul[spaced]
+@ol[spaced]
 - Defect reporting is only valuable as a method of clearly conveying information to the team.
 
 - The goal is to have the information actioned at the correct time.
 
 - Due to context switching, the cost of actioning the information is proportional to it's age.
-@ulend
+@olend
 @snapend
 
 ---
