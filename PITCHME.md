@@ -297,7 +297,9 @@ Default Tooling
 @snapend
 
 @snap[west text-07]
+
 Integration
+
 @ul
   - API
     - Native
