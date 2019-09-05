@@ -295,31 +295,46 @@ Unit
 @snap[north text-uppercase text-10 text-gold span-100]
 Default Tooling
 @snapend
+
+@snap[west text-07]
 Integration
+@ul
   - API
     - Native
   - Web
     - Cypress
+@ulend    
+@snapend
 ---
 
 
 @snap[north text-uppercase text-10 text-gold span-100]
 Default Tooling
 @snapend
+
+@snap[west text-07]
 System
+
+@ul
   - API
     - Native
   - Web
     - WebDriver & Cloud Provider (Browserstack/Saucelabs)
   - Mobile
     - ???
+@ulend    
+@snapend
 ---
 
 
 @snap[north text-uppercase text-10 text-gold span-100]
 Default Tooling
 @snapend
+
+@snap[west text-07]
 Non Functional
+
+@ul
   - Load
     - K6
   - Accessibility (automated)
@@ -327,24 +342,8 @@ Non Functional
   - Security
     - Sonar (Static)
     - ZAP (Dynamic)
-
----
-
-### API
-
-#### Functional
-
- - Exploratory
- - Integration
- - System
-
----
-
-### Non-functional
-
- - Load
- - Security
-
+@ulend
+@snapend
 ---
 
 ### Contract
