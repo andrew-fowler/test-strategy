@@ -171,7 +171,7 @@ Test pyramid
 ![Image of test pyramid](assets/pyramid.png)
 @snapend
 
-@snap[north east span-50]
+@snap[north-east span-50]
 Definitions
 @snapend
 
@@ -183,7 +183,7 @@ Definitions
 ![Image of test pyramid](assets/pyramid.png)
 @snapend
 
-@snap[north east span-50]
+@snap[north-east span-50]
 Definitions
 @snapend
 
@@ -195,7 +195,7 @@ Definitions
 ![Image of test pyramid](assets/pyramid.png)
 @snapend
 
-@snap[north east span-50]
+@snap[north-east span-50]
 Definitions
 @snapend
 
