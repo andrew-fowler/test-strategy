@@ -177,6 +177,10 @@ Definitions
 
 @snap[east span-50 text-05]
 Unit testing
+@ol
+- The smallest possible testable unit
+- Isolated through dependency injection
+@olend
 @snapend
 ---
 
@@ -190,6 +194,8 @@ Definitions
 
 @snap[east span-50 text-05]
 Integration testing
+@ol
+@olend
 @snapend
 ---
 
@@ -203,6 +209,8 @@ Definitions
 
 @snap[east span-50 text-05]
 System testing
+@ol
+@olend
 @snapend
 
 ---
