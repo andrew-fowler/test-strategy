@@ -162,7 +162,7 @@ So..
 
 
 @snap[north text-uppercase text-10 text-gold span-100]
-General test workflow
+Continuous delivery test workflow
 @snapend
 
 ![Image of test workflow](assets/test-workflow.png)
