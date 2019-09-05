@@ -175,8 +175,8 @@ Test pyramid
 Definitions
 @snapend
 
-@snap[east span-50]
-- Unit testing
+@snap[east span-50 text-05]
+Unit testing
 @snapend
 ---
 
@@ -188,8 +188,8 @@ Definitions
 Definitions
 @snapend
 
-@snap[east span-50]
-- Integration testing
+@snap[east span-50 text-05]
+Integration testing
 @snapend
 ---
 
@@ -201,8 +201,8 @@ Definitions
 Definitions
 @snapend
 
-@snap[east span-50]
-- System testing
+@snap[east span-50 text-05]
+System testing
 @snapend
 
 ---
