@@ -13,11 +13,12 @@ General Test Principles
 @snapend
 
 @snap[west span-100 text-07]
-Manually regression checking software is cost prohibitive and doesn't scale
-The cost of fixing a problem is proportional to its age
-Test investment is proportional to risk
-Cover as much risk as you can, as fast as you can
-
+@ul[spaced]
+- Manually regression checking software is cost prohibitive and doesn't scale
+- The cost of fixing a problem is proportional to its age
+- Test investment is proportional to risk
+- Cover as much risk as you can, as fast as you can
+@ulend
 @snapend
 
 Note:
@@ -37,6 +38,7 @@ Exploratory testing principles
 @snapend
 
 @snap[west span-100 text-07]
+@ul[spaced]
 Tell us **things we don't know**
 
 
@@ -44,6 +46,7 @@ Tell us **things we don't know**
 
 
 **Inform** all other activity (dev, automation, monitoring, etc)
+@ulend
 @snapend
 
 
@@ -58,10 +61,12 @@ Test Automation principles
 @snapend
 
 @snap[west span-100 text-07]
+@ul[spaced]
 **Increase release speed** by providing a safety net for **confident and rapid change**
 
 
 Confirm that the **things we knew to be true, still are**
+@ulend
 @snapend
 ---
 
@@ -140,9 +145,11 @@ Test pyramid
 @snapend
 
 @snap[east span-50 text-05]
+@ul[spaced]
 - Isolation is __proportional__ to execution __determinism__ and __speed__
 
 - However, isolation is __inversely proportional__ to the __system confidence__ provided by the resulting information
+@ulend
 @snapend
 
 
@@ -156,10 +163,11 @@ Test pyramid
 @snapend
 
 @snap[east span-50 text-05]
-So..
-
+@ul[spaced]
+- So..
 - (normally) test counts are unit > small integration > large integration > system
 - Where large-integration / system tests that do exist need to provide as much signal as possible
+@ulend
 @snapend
 
 
@@ -226,13 +234,13 @@ Defect management
 @snapend
 
 @snap[west text-07]
-Defect reporting is only valuable as a method of clearly conveying information to the team.
+@ul[spaced]
+- Defect reporting is only valuable as a method of clearly conveying information to the team.
 
+- The goal is to have the information actioned at the correct time.
 
-The goal is to have the information actioned at the correct time.
-
-
-Due to context switching, the cost of actioning the information is proportional to it's age.
+- Due to context switching, the cost of actioning the information is proportional to it's age.
+@ulend
 @snapend
 
 ---
@@ -244,13 +252,16 @@ Defect management
 @snapend
 
 @snap[west text-07]
+@ul[spaced]
 Therefore:
 
-For something that is a clear issue, in a live branch, inform the appropriate dev/s.
-If the fix is a clear requirement and doesn't significantly affect delivery, implement the fix and confirm resolution.
+- For something that is a clear issue, in a live branch, inform the appropriate dev/s.
+
+- If the fix is a clear requirement and doesn't significantly affect delivery, implement the fix and confirm resolution.
 
 
-If the fix is not a clear requirement and/or does significantly affect delivery, the Product Owner chooses to either action an immediate fix, or direct the team to formalise the bug and place it on the backlog for prioritisation.
+- If the fix is not a clear requirement and/or does significantly affect delivery, the Product Owner chooses to either action an immediate fix, or direct the team to formalise the bug and place it on the backlog for prioritisation.
+@ulend
 @snapend
 
 
