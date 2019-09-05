@@ -236,11 +236,11 @@ Defect management
 
 @snap[west text-07]
 @ol[spaced]
+
 - Defect reporting is only valuable as a method of clearly conveying information to the team.
-
 - The goal is to have the information actioned at the correct time.
-
 - Due to context switching, the cost of actioning the information is proportional to it's age.
+
 @olend
 @snapend
 
