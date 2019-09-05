@@ -1,5 +1,5 @@
 @snap[text-10 text-gold]
-Test Strategy
+Test Strategy *[DRAFT]*
 @snapend
 
 
