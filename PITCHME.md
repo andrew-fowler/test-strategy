@@ -213,11 +213,10 @@ Note:
 Test Responsibilities
 @snapend
 @snap[west text-07]
-Notes:
-
-- quality is owned by the team, not by individuals
-- testers can perform, or review test work, or act as quality coaches
-
+@ul[spaced]
+- Quality is owned by the team, not by individuals
+- Testers can perform, or review test work, or act as quality coaches to enable others to test
+@ulend
 @snapend
 
 ---
@@ -229,11 +228,9 @@ Defect management
 
 @snap[west text-07]
 @ol[spaced]
-
 - Defect reporting is only valuable as a method of clearly conveying information to the team.
 - The goal is to have the information actioned at the correct time.
 - Due to context switching, the cost of actioning the information is proportional to it's age.
-
 @olend
 @snapend
 
