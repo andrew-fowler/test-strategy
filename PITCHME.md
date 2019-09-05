@@ -2,7 +2,7 @@
 Test Strategy *[DRAFT]*
 @snapend
 
-@snap[south text-10]
+@snap[south text-10 span-100]
 Principles and Implementation
 @snapend
 
