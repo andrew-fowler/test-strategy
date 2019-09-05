@@ -278,6 +278,7 @@ Common questions the strategy should answer
 Default Tooling
 @snapend
 
+@snap[west text-07]
 Unit
 
 @ul
@@ -287,6 +288,7 @@ Unit
   - Web
     - Jest
 @ulend
+@snapend
 ---
 
 
