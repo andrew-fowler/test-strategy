@@ -165,6 +165,42 @@ Test pyramid
 @snapend
 
 
+---
+
+@snap[west span-50]
+![Image of test pyramid](assets/pyramid.png)
+@snapend
+
+@snap[northeast span-50]
+Definitions
+@snapend
+
+- Unit testing
+
+---
+
+@snap[west span-50]
+![Image of test pyramid](assets/pyramid.png)
+@snapend
+
+@snap[northeast span-50]
+Definitions
+@snapend
+
+- Integration testing
+
+---
+
+@snap[west span-50]
+![Image of test pyramid](assets/pyramid.png)
+@snapend
+
+@snap[northeast span-50]
+Definitions
+@snapend
+
+- System testing
+
 
 ---
 
@@ -287,6 +323,8 @@ Unit
     - Stryker
   - Web
     - Jest
+  - Mobile
+    - ???
 @ulend
 @snapend
 ---
