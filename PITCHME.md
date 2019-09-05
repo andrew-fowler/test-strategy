@@ -215,10 +215,20 @@ The goal is to have the information actioned at the correct time.
 Due to context switching, the cost of actioning the information is proportional to it's age.
 @snap[west text-07]
 
+---
+
+
+
+@snap[north text-uppercase text-10 text-gold span-100]
+Defect management
+@snapend
+
 Therefore:
 
 For something that is a clear issue, in a live branch, inform the appropriate dev/s.
 If the fix is a clear requirement and doesn't significantly affect delivery, implement the fix and confirm resolution.
+
+
 If the fix is not a clear requirement and/or does significantly affect delivery, the Product Owner chooses to either action an immediate fix, or direct the team to formalise the bug and place it on the backlog for prioritisation.
 
 
