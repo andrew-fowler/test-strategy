@@ -89,9 +89,9 @@ Test Automation Signal
 **Stability** > **Performance** > **Coverage**
 
 @ul[spaced]
-Coverage is meaningless without performance
-Performance is meaningless without stability
-Therefore, write 1 test.  Make it stable.  Then make it fast.  Then, and only then, write a second test.
+- Coverage is meaningless without performance
+- Performance is meaningless without stability
+- Therefore, write 1 test.  Make it stable.  Then make it fast.  Then, and only then, write a second test.
 @ulend
 @snapend
 
