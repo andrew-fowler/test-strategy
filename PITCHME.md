@@ -259,35 +259,69 @@ Therefore:
 
 Common questions the strategy should answer
 
-- How many tests to write?
-- Is our build too long?
+- How many tests should we write?
 - What happens post release?
 - Who is responsible for testing?
 - When does testing start?
 - What tooling should we use?
-- 
-
+- What do we do with bugs?
+- What browsers should we test with?
+- Should we ever delete tests?
+- How long should my pipeline spend testing?
 
 
 
 ---
 
 
-### Web
+@snap[north text-uppercase text-10 text-gold span-100]
+Default Tooling
+@snapend
 
-#### Functional
-
- - Exploratory
- - Integration
- - System
-
+Unit
+  - API
+    - Native
+    - Stryker
+  - Web
+    - Jest
 ---
 
-#### Non-functional
 
- - Load
- - Accessibility
- - Security
+@snap[north text-uppercase text-10 text-gold span-100]
+Default Tooling
+@snapend
+Integration
+  - API
+    - Native
+  - Web
+    - Cypress
+---
+
+
+@snap[north text-uppercase text-10 text-gold span-100]
+Default Tooling
+@snapend
+System
+  - API
+    - Native
+  - Web
+    - WebDriver & Cloud Provider (Browserstack/Saucelabs)
+  - Mobile
+    - ???
+---
+
+
+@snap[north text-uppercase text-10 text-gold span-100]
+Default Tooling
+@snapend
+Non Functional
+  - Load
+    - K6
+  - Accessibility (automated)
+    - Lighthouse
+  - Security
+    - Sonar (Static)
+    - ZAP (Dynamic)
 
 ---
 
@@ -309,31 +343,6 @@ Common questions the strategy should answer
 ---
 
 ### Contract
-
----
-
-### Mobile
-
-#### Functional
-
- - Exploratory
- - Integration
- - System
-
-#### Non-functional
-
- - Load
- - Accessibility
- - Security
-
----
-
-
-
-
----
-
-
 
 ---
 
