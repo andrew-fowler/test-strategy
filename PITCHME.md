@@ -39,13 +39,9 @@ Exploratory testing principles
 
 @snap[west span-100 text-07]
 @ul[spaced]
-Tell us **things we don't know**
-
-
-**Find** or **prevent** costly defects early
-
-
-**Inform** all other activity (dev, automation, monitoring, etc)
+- Tell us **things we don't know**
+- **Find** or **prevent** costly defects early
+- **Inform** all other activity (dev, automation, monitoring, etc)
 @ulend
 @snapend
 
@@ -62,10 +58,8 @@ Test Automation principles
 
 @snap[west span-100 text-07]
 @ul[spaced]
-**Increase release speed** by providing a safety net for **confident and rapid change**
-
-
-Confirm that the **things we knew to be true, still are**
+- **Increase release speed** by providing a safety net for **confident and rapid change**
+- Confirm that the **things we knew to be true, still are**
 @ulend
 @snapend
 ---
@@ -148,7 +142,6 @@ Test pyramid
 @ul[spaced]
 
 - Isolation is __proportional__ to execution __determinism__ and __speed__
-
 - However, isolation is __inversely proportional__ to the __system confidence__ provided by the resulting information
 @ulend
 @snapend
