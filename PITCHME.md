@@ -2,7 +2,9 @@
 Test Strategy *[DRAFT]*
 @snapend
 
-
+@snap[south text-10]
+Principles and Implementation
+@snapend
 
 ---
 @title[General Principles]
