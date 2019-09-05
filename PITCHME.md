@@ -15,6 +15,7 @@ General Test Principles
 @snap[west span-100 text-07]
 Manually regression checking software is cost prohibitive and doesn't scale
 The cost of fixing a problem is proportional to its age
+Test investment is proportional to risk
 Cover as much risk as you can, as fast as you can
 
 @snapend
@@ -39,7 +40,7 @@ Exploratory testing principles
 Tell us **things we don't know**
 
 
-**Prevent** or **find** costly defects early
+**Find** or **prevent** costly defects early
 
 
 **Inform** all other activity (dev, automation, monitoring, etc)
@@ -57,11 +58,10 @@ Test Automation principles
 @snapend
 
 @snap[west span-100 text-07]
-Confirm that the **things we knew to be true, still are**
-
-
 **Increase release speed** by providing a safety net for **confident and rapid change**
 
+
+Confirm that the **things we knew to be true, still are**
 @snapend
 ---
 
@@ -73,7 +73,7 @@ Test Automation principles
 @snapend
 
 @snap[west span-100 text-07]
-Provide information that is **reliable and actionable** (aka *Signal*)
+Provide information that is **reliable and actionable** (i.e. provide *Signal*)
 @snapend
 
 
@@ -87,8 +87,13 @@ Test Automation Signal
 
 @snap[text-10]
 **Stability** > **Performance** > **Coverage**
-@snapend
 
+@ul[spaced]
+Coverage is meaningless without performance
+Performance is meaningless without stability
+Therefore, write 1 test.  Make it stable.  Then make it fast.  Then, and only then, write a second test.
+@ulend
+@snapend
 
 
 ---
