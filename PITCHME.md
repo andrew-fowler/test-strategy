@@ -102,7 +102,7 @@ Test pyramid
 @snapend
 
 @snap[north-east span-100]
-Definitions: Unit testing
+Unit testing
 @snapend
 
 @snap[east span-50 text-05]
@@ -118,7 +118,7 @@ Definitions: Unit testing
 @snapend
 
 @snap[north-east span-100]
-Definitions: Integration testing
+Integration testing
 @snapend
 
 @snap[east span-50 text-05]
@@ -134,7 +134,7 @@ Definitions: Integration testing
 @snapend
 
 @snap[north-east span-100]
-Definitions: System testing
+System testing
 @snapend
 
 @snap[east span-50 text-05]
