@@ -102,11 +102,10 @@ Test pyramid
 @snapend
 
 @snap[north-east span-50]
-Definitions
+Definitions: Unit testing
 @snapend
 
 @snap[east span-50 text-05]
-Unit testing
 @ol
 - The smallest possible testable unit
 - Isolated through dependency injection
