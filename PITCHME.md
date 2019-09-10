@@ -108,7 +108,7 @@ Unit testing
 @snap[east span-50 text-05]
 @ol
 - The smallest possible testable unit
-- Isolated through dependency injection
+- Target isolation through dependency injection
 @olend
 @snapend
 ---
@@ -124,6 +124,7 @@ Integration testing
 @snap[east span-50 text-05]
 @ol
 - Greater scope than unit, less than system
+- Target isolation through test doubles (mocks, stubs)
 - Verifies communication paths and interactions between components, and externals
 @olend
 @snapend
