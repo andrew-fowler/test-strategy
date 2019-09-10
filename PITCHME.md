@@ -118,11 +118,10 @@ Definitions: Unit testing
 @snapend
 
 @snap[north-east span-50]
-Definitions
+Definitions: Integration testing
 @snapend
 
 @snap[east span-50 text-05]
-Integration testing
 @ol
 - Greater scope than unit, less than system
 - Verifies communication paths and interactions between components, and externals
@@ -135,11 +134,10 @@ Integration testing
 @snapend
 
 @snap[north-east span-50]
-Definitions
+Definitions: System testing
 @snapend
 
 @snap[east span-50 text-05]
-System testing
 @ol
 - Exercising the whole system, without isolation.
 - Verifies flow across all contracts
