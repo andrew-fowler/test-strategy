@@ -117,7 +117,7 @@ Definitions: Unit testing
 ![Image of test pyramid](assets/pyramid.png)
 @snapend
 
-@snap[north-east span-50]
+@snap[north-east span-100]
 Definitions: Integration testing
 @snapend
 
@@ -133,7 +133,7 @@ Definitions: Integration testing
 ![Image of test pyramid](assets/pyramid.png)
 @snapend
 
-@snap[north-east span-50]
+@snap[north-east span-100]
 Definitions: System testing
 @snapend
 
