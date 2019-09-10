@@ -25,76 +25,6 @@ Note:
 - All testing is **information gathering**
 - All worthwhile testing is **risk based**
 
-
-
----
-
-
-
-
-@title[Exploratory testing principles]
-@snap[north text-uppercase text-10 text-gold span-100]
-Exploratory testing principles
-@snapend
-
-@snap[west span-100 text-07]
-@ul[spaced]
-- Tell us **things we don't know**
-- **Find** or **prevent** costly defects early
-- **Inform** all other activity (dev, automation, monitoring, etc)
-@ulend
-@snapend
-
-
-
----
-
-
-
-@title[Test Automation principles]
-@snap[north text-uppercase text-10 text-gold span-100]
-Test Automation principles
-@snapend
-
-@snap[west span-100 text-07]
-@ul[spaced]
-- **Increase release speed** by providing a safety net for **confident and rapid change**
-- Confirm that the **things we knew to be true, still are**
-@ulend
-@snapend
----
-
-
-
-@title[Test Automation principles]
-@snap[north text-uppercase text-10 text-gold span-100]
-Test Automation principles
-@snapend
-
-@snap[west span-100 text-07]
-Provide information that is **reliable and actionable** (i.e. provide *Signal*)
-@snapend
-
-
----
-
-
-@title[Test Automation principles]
-@snap[north text-uppercase text-10 text-gold span-100]
-Test Automation Signal
-@snapend
-
-@snap[text-10]
-**Stability** > **Performance** > **Coverage**
-
-@ul[spaced]
-- Coverage is meaningless without performance
-- Performance is meaningless without stability
-- Therefore, write 1 test.  Make it stable.  Then make it fast.  Then, and only then, write a second test.
-@ulend
-@snapend
-
-
 ---
 
 @title[Test pyramid]
@@ -265,6 +195,74 @@ Test Responsibilities
 - Testers can perform, or review test work, or act as quality coaches to enable others to test
 @ulend
 @snapend
+
+---
+
+
+
+
+@title[Exploratory testing principles]
+@snap[north text-uppercase text-10 text-gold span-100]
+Exploratory testing principles
+@snapend
+
+@snap[west span-100 text-07]
+@ul[spaced]
+- Tell us **things we don't know**
+- **Find** or **prevent** costly defects early
+- **Inform** all other activity (dev, automation, monitoring, etc)
+@ulend
+@snapend
+
+
+
+---
+
+
+
+@title[Test Automation principles]
+@snap[north text-uppercase text-10 text-gold span-100]
+Test Automation principles
+@snapend
+
+@snap[west span-100 text-07]
+@ul[spaced]
+- **Increase release speed** by providing a safety net for **confident and rapid change**
+- Confirm that the **things we knew to be true, still are**
+@ulend
+@snapend
+---
+
+
+
+@title[Test Automation principles]
+@snap[north text-uppercase text-10 text-gold span-100]
+Test Automation principles
+@snapend
+
+@snap[west span-100 text-07]
+Provide information that is **reliable and actionable** (i.e. provide *Signal*)
+@snapend
+
+
+---
+
+
+@title[Test Automation principles]
+@snap[north text-uppercase text-10 text-gold span-100]
+Test Automation Signal
+@snapend
+
+@snap[text-10]
+**Stability** > **Performance** > **Coverage**
+
+@ul[spaced]
+- Coverage is meaningless without performance
+- Performance is meaningless without stability
+- Therefore, write 1 test.  Make it stable.  Then make it fast.  Then, and only then, write a second test.
+@ulend
+@snapend
+
 
 ---
 
