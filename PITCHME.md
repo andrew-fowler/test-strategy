@@ -125,6 +125,8 @@ Definitions
 @snap[east span-50 text-05]
 Integration testing
 @ol
+- Greater scope than unit, less than system
+- Verifies communication paths and interactions between components, and externals
 @olend
 @snapend
 ---
@@ -140,6 +142,9 @@ Definitions
 @snap[east span-50 text-05]
 System testing
 @ol
+- Exercising the whole system, without isolation.
+- Verifies flow across all contracts
+- Provides confidence that the system performs as expected at the user level.
 @olend
 @snapend
 
